@@ -2,6 +2,6 @@
 azure devops project
 
 
-# This is my github actions
-![github actions](https://github.com/ANGIECANCHON/azure-devops/actions)
+### Status
+[![CI](https://github.com/ANGIECANCHON/azure-devops/actions/workflows/main.yml/badge.svg)](https://github.com/ANGIECANCHON/azure-devops/actions/workflows/main.yml)
 
