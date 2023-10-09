@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs_on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkouts@v2
+
+    - name: Run make command
+      run: make hello
