@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkouts@v2
+    - uses: actions/checkout@v2
 
     - name: Run make command
       run: make hello
